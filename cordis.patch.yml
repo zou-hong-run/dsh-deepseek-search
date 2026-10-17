@@ -1,0 +1,15 @@
+# dsh-deepseek-search bundle patch — applied when this package is added as a
+# profile bundle (`dsh plugin --profile web add dsh-deepseek-search`).
+#
+# Registers the DeepSeek-backed providers and pins both web capabilities to
+# them. The base `web` row is replaced as a whole, so every key the deployment
+# needs must be restated here (the shipped base also sets `fetchProvider: http`;
+# this patch intentionally replaces it).
+- insert:
+    - id: dsh-deepseek-search
+      name: 'dsh-deepseek-search'
+
+- id: web
+  config:
+    searchProvider: deepseek-search
+    fetchProvider: deepseek-search
