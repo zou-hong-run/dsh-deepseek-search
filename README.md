@@ -71,6 +71,14 @@ profile 的 `cordis.patch.yml` 在**所有 bundle 之后**应用。如果那里�
 - 需要先发布（或托管 git 仓库），再让某个市场索引收录这个包和版本；
 - 本机 desktop profile 默认没有挂载 `plugin-market`，也没有配置索引，Discover 里自然是空的。
 
+本仓库自带一份索引 [market/index.json](market/index.json)，发布后把这个地址加到 **Plugins → Discover → 添加索引源**：
+
+```text
+https://raw.githubusercontent.com/zou-hong-run/dsh-deepseek-search/main/market/index.json
+```
+
+每次发版把新版本追加进 `versions` 数组（`publishTimestamp` 用发布时刻的 Unix 秒）。
+
 ## 验证
 
 ```bash

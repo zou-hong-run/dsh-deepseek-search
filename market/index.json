@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "title": {
+    "en": "dsh-deepseek-search",
+    "zh": "dsh-deepseek-search"
+  },
+  "description": {
+    "en": "Community plugin index for dsh-deepseek-search.",
+    "zh": "dsh-deepseek-search 的社区插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "web": {
+        "title": {
+          "en": "Web access",
+          "zh": "网络访问"
+        }
+      }
+    },
+    "labels": {
+      "search": {
+        "title": {
+          "en": "Search",
+          "zh": "搜索"
+        }
+      },
+      "fetch": {
+        "title": {
+          "en": "Fetch",
+          "zh": "抓取"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-deepseek-search",
+      "title": {
+        "en": "DeepSeek Search & Fetch",
+        "zh": "DeepSeek 搜索与抓取"
+      },
+      "description": {
+        "en": "DeepSeek Search and Fetch API providers for web_search and web_fetch, with retries, live settings, and a configuration page.",
+        "zh": "为 web_search / web_fetch 提供 DeepSeek Search / Fetch API 后端，支持重试、实时配置与配置页。"
+      },
+      "author": "zou-hong-run",
+      "homepage": "https://github.com/zou-hong-run/dsh-deepseek-search",
+      "repository": {
+        "url": "https://github.com/zou-hong-run/dsh-deepseek-search"
+      },
+      "icon": "https://cdn.jsdelivr.net/gh/zou-hong-run/dsh-deepseek-search@v0.1.0/icon.svg",
+      "metadata": {
+        "category": "web",
+        "labels": [
+          "search",
+          "fetch"
+        ],
+        "keywords": [
+          "deepseek",
+          "web-search",
+          "web-fetch",
+          "dsh"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793425020,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.1-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
