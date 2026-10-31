@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DeepSeek Search and Fetch">
+  <defs>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b7cff"/>
+      <stop offset="1" stop-color="#22307a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#lens)"/>
+  <circle cx="27" cy="27" r="12" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <path d="M19.5 22.5h15M19.5 27h10.5M19.5 31.5h13" stroke="#dbe4ff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M36 36l10 10" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>

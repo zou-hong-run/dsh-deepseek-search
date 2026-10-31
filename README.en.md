@@ -71,7 +71,7 @@ Discover reads **JSON indexes the user configures** (`plugin-market`'s `indexes`
 - the package must be published (or hosted as a Git repository) and then listed by some market index;
 - this desktop profile neither mounts `plugin-market` nor configures an index, so Discover has nothing to show.
 
-This repository carries its own index at [market/index.json](market/index.json). After publishing, add this URL under **Plugins → Discover → Add index source**:
+This repository carries its own index at [docs/market/index.json](docs/market/index.json). After publishing, add this URL under **Plugins → Discover → Add index source**:
 
 ```text
 https://zou-hong-run.github.io/dsh-deepseek-search/market/index.json
