@@ -74,7 +74,7 @@ profile 的 `cordis.patch.yml` 在**所有 bundle 之后**应用。如果那里�
 本仓库自带一份索引 [market/index.json](market/index.json)，发布后把这个地址加到 **Plugins → Discover → 添加索引源**：
 
 ```text
-https://raw.githubusercontent.com/zou-hong-run/dsh-deepseek-search/main/market/index.json
+https://zou-hong-run.github.io/dsh-deepseek-search/market/index.json
 ```
 
 每次发版把新版本追加进 `versions` 数组（`publishTimestamp` 用发布时刻的 Unix 秒）。

@@ -48,7 +48,7 @@
       "repository": {
         "url": "https://github.com/zou-hong-run/dsh-deepseek-search"
       },
-      "icon": "https://cdn.jsdelivr.net/gh/zou-hong-run/dsh-deepseek-search@v0.1.0/icon.svg",
+      "icon": "https://zou-hong-run.github.io/dsh-deepseek-search/icon.svg",
       "metadata": {
         "category": "web",
         "labels": [
