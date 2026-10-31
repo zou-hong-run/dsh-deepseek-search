@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 搜索与抓取",
+    "description": "通过 DeepSeek Search / Fetch API 为 web_search 与 web_fetch 提供检索后端。"
+  }
+}

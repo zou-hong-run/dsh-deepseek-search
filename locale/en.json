@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Search & Fetch",
+    "description": "Searches and fetches the web through the DeepSeek Search and Fetch APIs, backing web_search and web_fetch."
+  }
+}
