@@ -47,11 +47,37 @@ Since 0.2.1-rc.5, `deepseek-search-api` covers the same two endpoints, so **this
 
 ## Install
 
-Install through the Plugins page or `plugin_manager`'s `install_bundle`, passing an absolute path (or `link:<dir>`) for a local checkout. Do not substitute hand-run pnpm or manifest edits for it — that bypasses the version check and the rollback.
+**From npm (recommended)**
+
+```text
+Plugins → Add plugin → dsh-deepseek-search
+```
+
+Or from the CLI / the agent tool:
+
+```bash
+dsh plugin --profile <profile> add dsh-deepseek-search
+```
+
+```text
+plugin_manager install_bundle  target: dsh-deepseek-search@0.1.0
+```
+
+**From GitHub** (without npm)
+
+```bash
+dsh plugin --profile <profile> add github:zou-hong-run/dsh-deepseek-search
+```
+
+**A local checkout**: pass an absolute path, or `link:<dir>`.
 
 ```text
 plugin_manager install_bundle  target: C:\path\to\dsh-deepseek-search
 ```
+
+> The package name is `dsh-deepseek-search` (unscoped). Some registries display it as `@zou-hong-run/dsh-deepseek-search` after the repository; both name the same repository. Install with the npm name or the `github:` address above.
+
+Do not substitute hand-run pnpm or manifest edits for `install_bundle` — that bypasses the version check and the rollback.
 
 The bundle is selected on install and the plugin row appears immediately through HMR; no restart is needed. The Plugins inventory shows **DeepSeek Search & Fetch**.
 

@@ -47,11 +47,37 @@ DSH 0.2.1-rc.5 自带两个 DeepSeek 后端：
 
 ## 安装
 
-用 Plugins 页面或 `plugin_manager` 的 `install_bundle` 安装，本地目录传绝对路径（或 `link:<目录>`）。不要让 `install_bundle` 之外的手工 pnpm/清单修改代替它，那会绕开版本检查与回滚。
+**从 npm（推荐）**
+
+```text
+Plugins → Add plugin → dsh-deepseek-search
+```
+
+或者命令行 / 智能体工具：
+
+```bash
+dsh plugin --profile <profile> add dsh-deepseek-search
+```
+
+```text
+plugin_manager install_bundle  target: dsh-deepseek-search@0.1.0
+```
+
+**从 GitHub**（不经过 npm）
+
+```bash
+dsh plugin --profile <profile> add github:zou-hong-run/dsh-deepseek-search
+```
+
+**本地开发目录**：传绝对路径，或 `link:<目录>`。
 
 ```text
 plugin_manager install_bundle  target: C:\path\to\dsh-deepseek-search
 ```
+
+> 包名是 `dsh-deepseek-search`（无 scope）。有些注册表站按仓库显示成 `@zou-hong-run/dsh-deepseek-search`，指的都是同一个仓库；安装请用 npm 名或上面的 `github:` 地址。
+
+不要用 `install_bundle` 之外的手工 pnpm / 清单修改代替它，那会绕开版本检查与回滚。
 
 安装后 bundle 会被选中，插件行立即出现（HMR 生效），无需重启。Plugins 清单里应显示 **DeepSeek 搜索与抓取**。
 
