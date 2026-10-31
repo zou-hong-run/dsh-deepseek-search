@@ -130,6 +130,8 @@ Or override the plugin entry in a profile patch:
 
 `baseURL` means the same thing as in the shipped `web-deepseek-api`: stop before the operation name, and the default already includes `/v1/tools`. A bare origin such as `https://api.deepseek.com` would produce `/search`, which is wrong.
 
+These fields are also editable on the bundle's own page under **Plugins → this bundle** (the bundle ships a configuration page; a saved edit reaches the next call). Headless deployments keep using the patch form below.
+
 Example override:
 
 ```yaml

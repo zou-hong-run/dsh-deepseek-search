@@ -130,6 +130,8 @@ dsh web
 
 `baseURL` 的语义与官方 `web-deepseek-api` 一致：填到操作名前为止，默认值已经包含 `/v1/tools`。填成裸域 `https://api.deepseek.com` 会得到 `/search`，那是错的。
 
+这些字段也能在 **Plugins → 本 bundle 的详情页**里直接编辑（bundle 自带配置页，保存后对下一次调用生效）；headless 部署继续用下面的 patch 写法。
+
 覆盖示例：
 
 ```yaml
